@@ -1,0 +1,64 @@
+body {
+	font-family: 'Calibri', 'Arial';
+	font-size: 20px;
+	line-height: 1.0;
+	background-image: url('https://images.pexels.com/photos/1578293/pexels-photo-1578293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+header p {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	margin: 50px;
+
+}
+
+section article {
+	border: 5px solid black;
+	padding: 20px;
+}
+
+article img {
+	display: flex;
+	height: 160px;
+	width: 160px;
+}
+
+section p {
+	margin: 10px;
+}
+
+section ul {
+	padding-left: 30px;
+}
+
+footer {
+	text-align: center;
+	color: white;
+}
+
+#map {
+	height: 400px;  /* The height is 400 pixels */
+	width: 60%;  /* The width is the width of the web page */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+}
